@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#wall{
+    width: 100vw;
+    height: 100vh;
+    background: url(./plant-against-blue-wall-background-with-copy-space.jpg) no-repeat;
+    background-size: cover;
+    
+}
+
+
+#clockContainer{
+    position: relative;
+    margin: auto;
+    height: 40vw;
+    width: 40vw;
+    background: url(./8992\ [Converted].png) no-repeat;
+    background-size: 100%;
+}
+
+#hour , #minutes , #second{
+    position: absolute;
+    background: black;
+    border-radius: 10px;
+    transform-origin: bottom;
+
+
+}
+
+
+
+#hour{
+    width: 2%;
+    height: 21%;
+    top: 27.5%;
+    left: 51.7%;
+    opacity: 0.9;
+    
+}
+
+#minutes{
+    width: 1.7%;
+    height: 25%;
+    top: 23.5%;
+    left: 52%;
+    opacity: 0.9;
+
+    
+}
+
+#second{
+    width: 1.2%;
+    height: 29.9%;
+    top: 18.3%;
+    left: 52.2%;
+    opacity: 0.9;
+    
+} 
